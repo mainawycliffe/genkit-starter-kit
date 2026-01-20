@@ -7,7 +7,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "run:dev": "tsx index.ts"
+    "run:dev": "tsx src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +18,10 @@
     "typescript": "^5.6.3"
   },
   "dependencies": {
+    "@genkit-ai/compat-oai": "^1.27.0",
     "@genkit-ai/google-genai": "^1.27.0",
-    "genkit": "^1.27.0p"
+    "compat-oai": "link:@genkit-ai/compat-oai",
+    "genkit": "^1.27.0p",
+    "openai": "link:@genkit-ai/compat-oai/openai"
   }
 }
