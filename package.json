@@ -20,8 +20,6 @@
   "dependencies": {
     "@genkit-ai/compat-oai": "^1.27.0",
     "@genkit-ai/google-genai": "^1.27.0",
-    "compat-oai": "link:@genkit-ai/compat-oai",
-    "genkit": "^1.27.0p",
-    "openai": "link:@genkit-ai/compat-oai/openai"
+    "genkit": "^1.27.0"
   }
 }
